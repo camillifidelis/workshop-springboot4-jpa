@@ -1,4 +1,4 @@
-package com.camillifidelis.webservicesjpa.entities;
+ package com.camillifidelis.webservicesjpa.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -126,4 +126,5 @@ public class Order implements Serializable{
 		Order other = (Order) obj;
 		return Objects.equals(id, other.id);
 	}
+	
 }
